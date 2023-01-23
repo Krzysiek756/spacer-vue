@@ -4,7 +4,7 @@
 </template>
 
 <style lang="scss" scoped>
-.about {
-  background-color:green;
-}
+// .about {
+//   background-color:green;
+// }
 </style>

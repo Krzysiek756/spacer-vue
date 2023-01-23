@@ -7,7 +7,7 @@
 </template>
 
 <style lang="scss" scoped>
-#app {
-  background-color: red;
-}
+// #app {
+//   background-color: red;
+// }
 </style>
