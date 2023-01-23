@@ -1,12 +1,13 @@
 <template lang="pug">
-.app
-  .nav
-    router-link(to="/home") home
-    router-link(to="/about") about
+#app
+  nav
+    router-link(to='/') Home
+    router-link(to='/about') About
+  router-view
 </template>
 
 <style lang="scss" scoped>
-body {
+#app {
   background-color: red;
 }
 </style>
