@@ -4,6 +4,7 @@
     "module": "esnext",
     "baseUrl": "./",
     "moduleResolution": "node",
+    "esModuleInterop": true,
     "paths": {
       "@/*": [
         "src/*"
@@ -14,6 +15,16 @@
       "dom",
       "dom.iterable",
       "scripthost"
+    ],
+
+      "extensions": [
+        ".vue"
+      ],
+
+   "vueCompilerOptions": {
+    "plugins": [
+      "@volar/vue-language-plugin-pug"
     ]
   }
+}
 }
