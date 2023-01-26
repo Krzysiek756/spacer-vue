@@ -1,11 +1,9 @@
 <template lang="pug">
 .wrapper
+  claimview
   .wrapper__search
     label(for='serach') Search
     input(name='search' v-model="searchValue" @input="handleInput")#search
-    ul
-      li(v-for='item in results' :key='item.data[0].nasa_id')
-            p {{ item.data[0].description}}
 </template>
 
 <style lang="scss" scoped>// ograniczone wyłącznie do tego komponentu
@@ -21,6 +19,7 @@
     width: 300px;
     display: flex;
     flex-direction: column;
+    // display: none;
 
   }
 
@@ -35,6 +34,7 @@
   }
 
 }
+
 </style>
 // data w konponencie nie moze byc czystym obiektem
 // jakaś wartość musi być zawsze inaczej nie bedzie ona reaktywna przy dekarowaniu dyrektywy
