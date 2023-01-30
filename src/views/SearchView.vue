@@ -1,6 +1,6 @@
 <template lang="pug">
 .wrapper
-  claimview
+  Claim
   .wrapper__search
     label(for='serach') Search
     input(name='search' v-model="searchValue" @input="handleInput")#search
@@ -19,7 +19,7 @@
     width: 300px;
     display: flex;
     flex-direction: column;
-    // display: none;
+    display: none;
 
   }
 
@@ -42,11 +42,15 @@
 
 import axios from 'axios';
 import debounce from 'lodash.debounce';
+import Claim from '@/components/ClaimView.vue';
 
 const API = 'http://images-api.nasa.gov/search';
 
 export default {
   name: 'SearchView',
+  components: {
+    Claim,
+  },
   data() {
     return {
       searchValue: '',
