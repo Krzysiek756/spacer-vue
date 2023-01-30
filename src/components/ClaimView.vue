@@ -1,11 +1,11 @@
 <template lang="pug">
-.wrapper
+.claimWrapper
   h1.claim Spacer
   p.subclaim
-  | Begin your journey throught our amazing galaxy, and discover places
-  | and discover places you never even heard of.
+    | Begin your journey throught our amazing galaxy, and discover places
+    | and discover places you never even heard of.
   p.subclaim
-  | Type anything space-related to start.
+    | Type anything space-related to start.
 </template>
 
 <script>
@@ -15,10 +15,20 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.wrapper {
+.claimWrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.claim {
+    font-size: 50px;
+    margin: 0;
+}
+
+.subclaim{
+    margin: 25px 0 0 0 ;
+    text-align: center;
+    font-size: 20px;
 }
 </style>
