@@ -1,7 +1,7 @@
 <template lang="pug">
 .wrapper
-  Claim
-  Search
+    Claim
+    Search
 </template>
 
 <style lang="scss" scoped>// ograniczone wyłącznie do tego komponentu
@@ -12,7 +12,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  background-image: url('../assets/background.jpg');
+  background-size: 100vw;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 </style>

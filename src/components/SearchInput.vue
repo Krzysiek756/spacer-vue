@@ -1,6 +1,5 @@
 <template lang="pug">
 .searchWrapper
-    label(for='serach') Search
     input(name='search' v-model="searchValue" @input="handleInput")#search
 </template>
 
@@ -13,20 +12,20 @@ export default {
 <style lang="scss" scoped>
 
   .searchWrapper {
+    margin-top: 50px;
     width: 300px;
     display: flex;
     flex-direction: column;
 
   }
 
-  label {
-    font-family: Montserrat, sans-serif;
-  }
-
   input {
     height:30px;
     border: 0;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid red;
+    background: transparent;
+    color: white;
+    text-transform: uppercase;
   }
 
 </style>
