@@ -8,13 +8,14 @@
 .wrapper {
   width: 100%;
   padding: 30px;
+  height: 100vh;
   margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url('../assets/background.jpg');
-  background-size: 100vw;
-  background-position: center center;
+  background-image: url('../assets/peakpx.jpg');
+  background-size: cover;
+  background-position: 50% 0;
   background-repeat: no-repeat;
 }
 

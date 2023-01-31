@@ -19,7 +19,7 @@ $font-weight-black:800;
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: -10px;
+    margin: -8px;
     padding: 0;
 
 }
