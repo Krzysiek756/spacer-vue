@@ -1,19 +1,19 @@
-import Vue from 'vue';
-import VueRouter from 'vue-router';
-import Home from '../views/SearchView.vue';
+// import Vue from 'vue';
+// import VueRouter from 'vue-router';
+// import Home from '../views/SearchView.vue';
 
-Vue.use(VueRouter);
+// Vue.use(VueRouter);
 
-const routes = [
-  {
-    path: '/',
-    name: 'home',
-    component: Home,
-  },
-];
+// const routes = [
+//   {
+//     path: '/',
+//     name: 'home',
+//     component: Home,
+//   },
+// ];
 
-const router = new VueRouter({
-  routes,
-});
+// const router = new VueRouter({
+//   routes,
+// });
 
-export default router;
+// export default router;

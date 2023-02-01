@@ -27,6 +27,7 @@ export default {
 .claim {
     font-size: 50px;
     margin: 0;
+    text-transform: uppercase;
 }
 
 .subclaim{
