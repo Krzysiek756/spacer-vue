@@ -21,6 +21,7 @@ export default {
   justify-content: center;
   align-items: center;
   color: white;
+  max-width: 450px;
 
 }
 .claim {

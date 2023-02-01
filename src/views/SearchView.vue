@@ -11,6 +11,7 @@
   height: 100vh;
   margin: 0;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
   background-image: url('../assets/peakpx.jpg');
